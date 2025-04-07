@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Visual Studio Code",
+    "tasks" : "50",
+    "duration" : "Approximately 3 months",
+    "lessons" : "12",
+    "image" : "src/assets/images-icons/vscode.jpeg"
+    
+  },
+  {
+    "id": 2,
+    "name": "SQL",
+    "tasks" : "83",
+    "duration" : "Approximately 3 months",
+    "lessons" : "15",
+    "image" : "src/assets/images-icons/sql.png"
+    
+  },
+  {
+    "id": 3,
+    "name": "Tailwind",
+    "tasks" : "40",
+    "duration" : "Approximately 8 weeks",
+    "lessons" : "12",
+    "image" : "src/assets/images-icons/tailwind.png"
+    
+  },
+  {
+    "id": 4,
+    "name": "Figma",
+    "tasks" : "32",
+    "duration" : "Approximately 4 weeks",
+    "lessons" : "7",
+    "image" : "src/assets/images-icons/figma.png"
+    
+  },
+  {
+    "id": 5,
+    "name": "Google Sheet",
+    "tasks" : "17",
+    "duration" : "Approximately 2 weeks",
+    "lessons" : "9",
+    "image" : "src/assets/images-icons/googlesheet.png"
+    
+  },
+  {
+    "id": 6,
+    "name": "Github",
+    "tasks" : "15",
+    "duration" : "",
+    "lessons" : "10",
+    "image" : "src/assets/images-icons/github.png"
+    
+  }
+]

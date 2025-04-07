@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Javascript",
+    "tasks" : "132",
+    "duration" : "Approximately 6 months",
+    "lessons" : "32",
+    "image" : "src/assets/images-icons/javascript.jpeg"
+    
+  },
+  {
+    "id": 2,
+    "name": "Python",
+    "tasks" : "125",
+    "duration" : "Approximately 6 months",
+    "lessons" : "28",
+    "image" : "src/assets/images-icons/python.jpeg"
+    
+  },
+  {
+    "id": 3,
+    "name": "C++",
+    "tasks" : "132",
+    "duration" : "Approximately 6 months",
+    "lessons" : "31",
+    "image" : "src/assets/images-icons/c++.png"
+    
+  },
+  {
+    "id": 4,
+    "name": "Swift",
+    "tasks" : "112",
+    "duration" : "Approximately 5 months",
+    "lessons" : "27",
+    "image" : "src/assets/images-icons/swift.jpeg"
+    
+  },
+  {
+    "id": 5,
+    "name": "Go",
+    "tasks" : "70",
+    "duration" : "Approximately 4 months",
+    "lessons" : "14",
+    "image" : "src/assets/images-icons/go.jpeg"
+    
+  },
+  {
+    "id": 6,
+    "name": "React",
+    "tasks" : "83",
+    "duration" : "Approximately 2 months",
+    "lessons" : "17",
+    "image" : "src/assets/images-icons/react.jpeg"
+    
+  }
+]
