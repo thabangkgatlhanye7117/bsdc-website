@@ -6,4 +6,4 @@ I started the project with the structure of the website using HTML, build a few 
 
 I used React Router to make the application a single page application so user can navigate the application without reload the page 
 
-
+I deployed my project on https://bullasoft.vercel.app/
