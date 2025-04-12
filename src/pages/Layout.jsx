@@ -13,18 +13,18 @@ const Layout = () => {
 
                  
               <div class='flex w-2/7 items-center contain-content '>
-                    <Link to ='/'><img class=' w-full h-auto  border-none'src='src/assets/images-icons/logo-black.png '/></Link>
+                    <Link to ='/'><img class=' w-full h-auto  border-none'src='/images-icons/logo-black.png '/></Link>
               </div>
 
               <div class= 'flex w-2/5 items-center justify-between p-3 max-sm:w-1/5'>
                   <div class= 'flex w-3/5 h-10 justify-around px-3 items-center max-md:hidden'>
                   <input class='h-8 w-[300px] border-none rounded-md' type ='text' />
-                  <img class='object-contain h-5 ml-2 ' src='src/assets/images-icons/search.png'/>
+                  <img class='object-contain h-5 ml-2 ' src='/images-icons/search.png'/>
                   </div>
                   <Link to ='/logIn' ><p class= 'text-white hover:text-red-600 font-semibold max-sm:hidden'>LOGIN</p></Link>
-                  <Link to ='/logIn' ><img class='object-contain h-5  md:hidden ' src='src/assets/images-icons/profile.jpg'/></Link>
+                  <Link to ='/logIn' ><img class='object-contain h-5  md:hidden ' src='/images-icons/profile.jpg'/></Link>
                   <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                    <img class='object-contain h-5  md:hidden ' src='src/assets/images-icons/hamburger.jpg' alt='hamburger-menu'/>
+                    <img class='object-contain h-5  md:hidden ' src='/images-icons/hamburger.jpg' alt='hamburger-menu'/>
                   </button>
               </div> 
               <div className={`absolute xl:hidden top-20 left-0 w-full bg-white flex flex-col

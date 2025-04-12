@@ -1,3 +1,4 @@
+// Dashboard lessons is the component that renders when you click the book icon
 const DashboardLessons = () =>{
 
   return (

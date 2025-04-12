@@ -1,4 +1,4 @@
-
+//login page which uses formik to validate the user input and manages the state
 import {useFormik} from 'formik';
 
 import { loginSchema } from '../schemas/loginSchema';

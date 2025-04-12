@@ -1,3 +1,4 @@
+// Dashboard roadmaps is the component that renders when you click the roadmap icon
 const DashboardRoadmaps = () =>{
 
   return (

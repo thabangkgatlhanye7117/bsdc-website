@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+//The not found page renders when the browser can not find page
 const NotFoundPage = () => {
     return(
 

@@ -1,3 +1,4 @@
+ // About section
  const About = () => {
         return(
           <section id='about'classNameName='h-[500px] p-12 '>

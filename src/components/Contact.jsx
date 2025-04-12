@@ -1,4 +1,4 @@
-
+// Contact section
 const Contact = () => {
 
     return(

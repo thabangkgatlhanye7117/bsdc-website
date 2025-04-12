@@ -1,7 +1,7 @@
 import Languages from './languages.json'
 
 const LanguageList = () => {
-
+//Programming languages card
     return(
         <section id='languages'class='bg-red-600 p-10 font-sans pt-[50px]  '>
           <h1 class='text-center p-5 text-2xl font-semibold'>Programming Languages</h1>

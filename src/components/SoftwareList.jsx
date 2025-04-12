@@ -9,6 +9,7 @@ const SoftwareList = () => {
           <div className ='w-full overflow-x-scroll overflow-y-hidden whitespace-nowrap h-[520px] p-16  mb-5   max-md:h-[520px] '>
 
                {
+                //Softwares card
                   Softwares.map(software =>{
                       return(
               

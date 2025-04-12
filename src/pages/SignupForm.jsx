@@ -1,6 +1,6 @@
 import { useFormik } from  'formik';
 import { basicSchema } from '../schemas';
-
+//Sign up page which uses formik to validate the user input and manages the state
 const SignupForm = () => {
 
 const formik = useFormik({
