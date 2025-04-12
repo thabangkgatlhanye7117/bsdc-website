@@ -9,25 +9,25 @@ const UserDashboard =() => {
 
 <div className='flex justify-center items-center w-1/4 h-full '>
  <NavLink to='/userDashboard'>
-  <img className='w-[50px] h-[50px]'src=' src/assets/images-icons/home.png' alt='house-icon'/>
+  <img className='w-[50px] h-[50px]'src='/images-icons/home.png' alt='house-icon'/>
   </NavLink>
 </div>
 
 <div className='flex justify-center items-center w-1/4 h-full '>
 <NavLink to='/userDashboard/dashboardLessons'>
-<img className='w-[50px] h-[50px]'src=' src/assets/images-icons/book.png' alt='book-icon'/>
+<img className='w-[50px] h-[50px]'src='/images-icons/book.png' alt='book-icon'/>
 </NavLink>
 </div>
 
 <div className='flex justify-center items-center w-1/4 h-full '>
 <NavLink to='/userDashboard/dashboardRoadmaps' > 
-<img className='w-[50px] h-[50px]'src=' src/assets/images-icons/roadmap.png' alt='roadmap-icon'/>
+<img className='w-[50px] h-[50px]'src='/images-icons/roadmap.png' alt='roadmap-icon'/>
 </NavLink>
 </div>
 
 <div className='flex justify-center items-center w-1/4 h-full '>
 <NavLink to='/userDashboard/dashboardSettings'>
-<img className='w-[50px] h-[50px]'src=' src/assets/images-icons/gears.png' alt='settings-icon'/>
+<img className='w-[50px] h-[50px]'src='/images-icons/gears.png' alt='settings-icon'/>
 </NavLink>
 </div>
 
@@ -54,7 +54,7 @@ const UserDashboard =() => {
         <div className='w-1/2 h-full max-sm:hidden'>
 
           <div className='flex h-full w-full justify-center p-10 '>
-          <img className='h-full w-full'src=' src/assets/images-icons/purple.jpg' alt='laptop-image'/>
+          <img className='h-full w-full'src='/images-icons/purple.jpg' alt='laptop-image'/>
           </div>
 
          
