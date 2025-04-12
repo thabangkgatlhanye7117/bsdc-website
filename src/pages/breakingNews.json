@@ -3,7 +3,8 @@
     "id": 1,
     "continent": "AFRICA",
     "headline" : "Tech Giants ALX Produce 40 000 geniuses",
-    "time" : "3 hours ago"
+    "time" : "3 hours ago",
+    "path" : "/newsLetter"
     
   },
 
@@ -11,7 +12,8 @@
     "id": 2,
     "continent": "ASIA",
     "headline" : "China overtakes the US in tech innovation",
-    "time" : "9 hours ago"
+    "time" : "9 hours ago",
+    "path" : "/newsLetter/asiaNews"
     
   },
 
@@ -19,7 +21,8 @@
     "id": 3,
     "continent": "EUROPE",
     "headline" : "Switzerland in search of Front End Developers",
-    "time" : "4 hours ago"
+    "time" : "4 hours ago",
+    "path" :"/newsLetter/europeNews"
     
   },
 
@@ -27,7 +30,8 @@
     "id": 4,
     "continent": "AMERICA",
     "headline" : "Apple announce new MACBOOK and IOS features",
-    "time" : "8 hours ago"
+    "time" : "8 hours ago",
+    "path" : "/newsLetter/americaNews"
     
   }
 
