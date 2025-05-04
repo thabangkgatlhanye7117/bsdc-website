@@ -15,6 +15,10 @@ import DashboardHome from './components/DashboardHome.jsx'
 import DashboardSettings from './components/DashboardSettings.jsx'
 import DashboardRoadmaps from './components/DashboardRoadmaps.jsx'
 import DashboardLessons from './components/DashboardLessons.jsx'
+import AmericaNews from './components/AmericaNews.jsx'
+import AfricaNews from './components/AfricaNews.jsx'
+import AsiaNews from './components/AsiaNews.jsx'
+import EuropeNews from './components/EuropeNews.jsx'
 
 const router = createBrowserRouter([
 
@@ -36,7 +40,15 @@ const router = createBrowserRouter([
                       ] 
                   },
                   { path :'/tutorials' , element : <Tutorials/>},
-                  { path :'/newsLetter' , element : <NewsLetter/>},
+                  { path :'/newsLetter' , element : <NewsLetter/>,
+
+                        children : [
+                    { index: true, element: <AfricaNews/>},
+                    { path: 'asiaNews', element: <AsiaNews/>},
+                    { path: 'europeNews', element: <EuropeNews/>},
+                    { path: 'americaNews', element: <AmericaNews/>},
+                        ]
+                  },
                   { path :'/community' , element : <Community/>},
                 
     ],

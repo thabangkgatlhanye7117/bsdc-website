@@ -28,7 +28,7 @@ return(
   <div className='w-1/2 h-full max-sm:hidden'>
 
         <div className='flex h-full w-full pt-10 justify-end contain-content '>
-          <img className='h-full w-3/4'src='/images-icons/laptop-white.jpg' alt='laptop-image'/>
+          <img className='h-full w-3/4'src='/images-icons/syntax.jpeg' alt='laptop-image'/>
         </div>
 
         <p className='text-white text-center font-mono'>image by rawpix.com on Freepix</p>

@@ -5,7 +5,7 @@
     "tasks" : "50",
     "duration" : "Approximately 3 months",
     "lessons" : "12",
-    "image" : "src/assets/images-icons/vscode.jpeg"
+    "image" : "/images-icons/vscode.jpeg"
     
   },
   {
@@ -14,7 +14,7 @@
     "tasks" : "83",
     "duration" : "Approximately 3 months",
     "lessons" : "15",
-    "image" : "src/assets/images-icons/sql.png"
+    "image" : "/images-icons/sql.png"
     
   },
   {
@@ -23,7 +23,7 @@
     "tasks" : "40",
     "duration" : "Approximately 8 weeks",
     "lessons" : "12",
-    "image" : "src/assets/images-icons/tailwind.png"
+    "image" : "/images-icons/tailwind.png"
     
   },
   {
@@ -32,7 +32,7 @@
     "tasks" : "32",
     "duration" : "Approximately 4 weeks",
     "lessons" : "7",
-    "image" : "src/assets/images-icons/figma.png"
+    "image" : "/images-icons/figma.png"
     
   },
   {
@@ -41,7 +41,7 @@
     "tasks" : "17",
     "duration" : "Approximately 2 weeks",
     "lessons" : "9",
-    "image" : "src/assets/images-icons/googlesheet.png"
+    "image" : "/images-icons/googlesheet.png"
     
   },
   {
@@ -50,7 +50,7 @@
     "tasks" : "15",
     "duration" : "",
     "lessons" : "10",
-    "image" : "src/assets/images-icons/github.png"
+    "image" : "/images-icons/github.png"
     
   }
 ]
