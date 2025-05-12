@@ -7,8 +7,8 @@ const Header = () => {
         <nav className="nav-container">
 
             <a className="nav-logo-container">
-               <img className="logo" src="public/logo.webp" loading='lazy' alt="logo"/>
-               <img className="logo-name" src="public/logo-name.webp"  loading='lazy' alt="logo-name"/>
+               <img className="logo" src="/logo.webp" loading='lazy' alt="logo"/>
+               <img className="logo-name" src="/logo-name.webp"  loading='lazy' alt="logo-name"/>
             </a>
             
       <div className="nav-menu-container">
