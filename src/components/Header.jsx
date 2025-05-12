@@ -1,28 +1,52 @@
-import { Link ,Outlet} from "react-router-dom";
+
+
 const Header = () => {
+
+
   return(
+        <nav className="nav-container">
 
-    <>
-      <header className='bg-black h-30 flex px-10 justify-between border-b border-b-neutral-700'  >
+            <a className="nav-logo-container">
+               <img className="logo" src="src/images/logo.webp" loading='lazy' alt="logo"/>
+               <img className="logo-name" src="src/images/logo-name.webp"  loading='lazy' alt="logo-name"/>
+            </a>
+            
+      <div className="nav-menu-container">
 
-                 
-          <div className='flex w-2/7 items-center contain-content'>
-             <Link to ='/'><img className=' w-full h-auto  border-none 'src='src/assets/images-icons/logo-black.png' alt='logo'/></Link>
-          </div>
+          <div className="nav-menu">
 
-          <div className= 'flex w-2/5 items-center justify-between p-3'>
-              <div className= 'flex w-3/5 h-10 justify-around px-3 contain-content items-center '>
-                  <input className='h-8 w-[300px] border-none rounded-md  ' type ='text' />
-                  <button onClick=''><img className='object-contain h-5 ml-2 ' src='src/assets/images-icons/search.png' alt='search-button'/></button>
-              </div>
-              <Link to='/login' ><p className= 'text-white hover:text-red-600 font-semibold'>LOGIN</p></Link>
-          </div> 
-           
-      </header>
+                <h3 className="nav-menu-title">Bullasoft</h3>
 
-     
-      </>
-  );
+                <ul className="nav-list">
+
+                    
+
+                    <li className="nav-list-item">Home</li>
+                    <li className="nav-list-item">What We Do</li>
+                    <li className="nav-list-item">Services</li>
+                    <li className="nav-list-item">Projects</li>
+                    <li className="nav-list-item">Contact Us</li>
+
+                </ul>
+                {/*Close icon */}
+
+                <div className="toggle-button">
+                    <i className="ri-menu-4-line"></i>
+                </div>
+            </div>
+      </div>
+      <div className="nav-buttons">
+
+            {/*Theme-icon*/}
+            <div className="theme-button">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+           <div className="toggle-button">
+               <i class="ri-menu-4-line"></i>
+           </div>
+
+      </div>
+</nav>
+  )
 }
-
 export default Header

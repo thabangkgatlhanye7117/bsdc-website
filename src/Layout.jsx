@@ -1,0 +1,33 @@
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Reasons from "./components/Reasons"
+import Help from "./components/Help"
+import Projects from "./components/Projects"
+const Layout = () => {
+return(
+  <>
+  
+      {/*HEADER*/}
+      <header className="header" id="header">
+          <Header/>
+      </header> 
+
+
+    
+       {/*MAIN*/}
+      <main>
+           <Hero/>
+           <Reasons/>
+           <Help/>
+           <Projects/>
+      </main>
+
+
+
+  </>
+)
+
+
+
+}
+export default Layout
