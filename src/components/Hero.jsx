@@ -18,9 +18,8 @@ const Hero = () => {
                         websites to help start-ups and growing businesses
                         thrive in the digital world.
                      </p>
-                      <button className="hero-button button">
-                        Free Consultation
-                      </button>
+                     
+                      <button className="hero-button button"> Free Consultation</button>
                 </div>
                 <button className="hero-scroll-button">
                   <i class="ri-arrow-down-s-line"></i>
