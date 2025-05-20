@@ -147,7 +147,7 @@
   
     .section {
       margin-bottom: 3rem;
-      height: 675px;
+      height: 100vh;
       width: 100%;
     }
     main {
@@ -328,7 +328,7 @@
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
-  padding-top: 80px;
+  padding-top: 120px;
 
  }
   .hero-container{
@@ -351,10 +351,11 @@
 
   .hero-heading{
     font-weight: var(--font-semi-bold);
-    font-size: var(--biggest-font);
+    font-size: var(--h1-font-size);
   }
   .hero-heading span{
-    margin-left: 110px;
+    margin-left: 80px;
+    height: 40px; ;
   }
  
   .hero-statement{
@@ -372,7 +373,7 @@
     width: 100%;
     height: 100px;
     font-weight: var(--font-semi-bold);
-    margin-top:1rem;
+    margin-top:2rem;
     
     
   }
