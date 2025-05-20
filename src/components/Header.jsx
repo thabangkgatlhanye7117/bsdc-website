@@ -1,19 +1,66 @@
-
+import { useState } from "react";
 
 const Header = () => {
+
+  const [isActive, setIsActive] = useState(false);
+    
+/*SHOW MENU*/ 
+const navMenu = document.getElementById("nav-menu");
+const navToggle = document.getElementById("nav-toggle");
+const navClose = document.getElementById("nav-close");
+
+/*Menu Show*/
+
+const menuShow = ()=> {
+  
+     navMenu.classList.add('show-menu')
+   }
+
+
+/*Menu Hidden*/
+
+if(navClose) {
+  navClose.addEventListener('click', () => {
+    navMenu.classList.remove('show-menu')
+  })
+}
+
+/*Remove mobile menu*/
+
+const navLink = document.querySelectorAll(".nav-link");
+
+const linkAction = () =>{
+  const  navMenu = document.getElementById('nav-menu');
+  /*Remove the menu when link is clicked */
+  navMenu.classList.remove('show-menu')
+}
+
+navLink.forEach(l => l.addEventListener('click' , linkAction))
+/*shadow header */
+
+const shadowHeader = () => {
+
+      const header = document.getElementById('header');
+
+      this.scrollY >= 50 ? header.classList.add('shadow-header')
+                           :header.classList.remove('shadow-header')
+    
+}
+window.addEventListener('scroll', shadowHeader);
+
 
 
   return(
         <nav className="nav-container">
 
             <a className="nav-logo-container">
-               <img className="logo" src="/logo.webp" loading='lazy' alt="logo"/>
+               <img className="logo" src="/bullasoft-logo.webp" loading='lazy' alt="logo"/>
                <img className="logo-name" src="/logo-name.webp"  loading='lazy' alt="logo-name"/>
             </a>
             
       <div className="nav-menu-container">
 
-          <div className="nav-menu">
+          <div className="nav-menu" id='nav-menu'>
 
                 <h3 className="nav-menu-title">Bullasoft</h3>
 
@@ -30,8 +77,8 @@ const Header = () => {
                 </ul>
                 {/*Close icon */}
 
-                <div className="toggle-button">
-                    <i className="ri-menu-4-line"></i>
+                <div className="nav-close" id="nav-close">
+                    <i className="ri-close-line"></i>
                 </div>
             </div>
       </div>
@@ -41,9 +88,9 @@ const Header = () => {
             <div className="theme-button">
                 <i class="ri-moon-line change-theme" id="theme-button"></i>
             </div>
-           <div className="toggle-button">
+           <button className="nav-toggle" id="nav-toggle" onClick={menuShow}>
                <i class="ri-menu-4-line"></i>
-           </div>
+           </button>
 
       </div>
 </nav>

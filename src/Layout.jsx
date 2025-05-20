@@ -3,12 +3,13 @@ import Hero from "./components/Hero"
 import Reasons from "./components/Reasons"
 import Help from "./components/Help"
 import Projects from "./components/Projects"
+import ParticlesComponent from "./components/ParticlesComponent"
 const Layout = () => {
 return(
   <>
-  
+      
       {/*HEADER*/}
-      <header className="header" id="header">
+      <header className="header shadow" id="header">
           <Header/>
       </header> 
 
@@ -16,10 +17,10 @@ return(
     
        {/*MAIN*/}
       <main>
-           <Hero/>
-           <Reasons/>
-           <Help/>
-           <Projects/>
+       <Hero/>    
+          
+           
+          
       </main>
 
 

@@ -14,7 +14,9 @@
     "formik": "^2.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-tsparticles": "^2.12.2",
     "remixicon": "^4.6.0",
+    "tsparticles": "^3.8.1",
     "yup": "^1.6.1"
   },
   "devDependencies": {
