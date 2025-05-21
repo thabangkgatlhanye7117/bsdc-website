@@ -360,7 +360,7 @@
   .hero-statement{
     font-size: var(--normal-font-size);
     color: var(--text-color-light);
-    margin-top: 1rem;
+  
   }
   .hero-statement span{
     text-decoration:underline var(--first-color) 2px;
@@ -373,7 +373,7 @@
     width: 100%;
     height: 100px;
     font-weight: var(--font-semi-bold);
-    margin-top:3rem;
+    margin-top:2rem;
     
     
   }
