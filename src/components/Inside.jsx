@@ -1,17 +1,45 @@
+import ScrollReveal from 'scrollreveal'
+import { useEffect } from 'react'
 const Inside = () => {
+    useEffect(()=>{
+      ScrollReveal().reveal('.from-left', {
+        origin:'left',
+        distance:'50px',
+        duration:1500,
+      });
+  
+      ScrollReveal().reveal('.from-right', {
+        origin:'right',
+        distance:'50px',
+        duration:1500,
+      });
+  
+      ScrollReveal().reveal('.from-top', {
+        origin:'top',
+        distance:'50px',
+        duration:1500,
+      });
+      ScrollReveal().reveal('.from-bottom', {
+        origin:'bottom',
+        distance:'50px',
+        duration:1500,
+      });
+  
+    },[])
+
   return (
-      <section className="inside-section ">
+      <section className="inside-section " id="inside">
             <div className="inside-container" id="inside-container">
 
-                <div className="inside-image">
+                <div className="inside-image from-bottom" id="inside-image">
                     <h3 className="inside-image-text">
                       POWERING DIGITAL COMMERCE
                     </h3>
                 </div>
-                <h2 className="inside-heading">
-                      INSIDE BULLA<span className="outlined-text">SOFT</span>
+                <h2 className="inside-heading from-bottom">
+                      INSIDE <span className="outlined-text">BULLA</span>SOFT
                 </h2>
-                <div className="inside-column">
+                <div className="inside-column from-bottom">
                       
                       <i className="ri-lightbulb-flash-line"></i>
                       <span>Why</span>
@@ -20,7 +48,7 @@ const Inside = () => {
                        into customers. Our goal is to make it easy for anyone to launch and grow.
                       </p>
                 </div>
-                <div className="inside-column">
+                <div className="inside-column from-bottom">
                       
                       <i className="ri-macbook-line"></i>
                       <span>What</span>
@@ -29,7 +57,7 @@ const Inside = () => {
                       offer hosting services tailored to your business goals
                       </p>
                 </div>
-                <div className="inside-column">
+                <div className="inside-column from-bottom">
                       
                       <i className="ri-settings-line"></i>
                       <span>How</span>
