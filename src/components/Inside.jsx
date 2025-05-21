@@ -1,6 +1,6 @@
 const Inside = () => {
   return (
-      <section className="inside-section section">
+      <section className="inside-section ">
             <div className="inside-container" id="inside-container">
 
                 <div className="inside-image">
@@ -12,30 +12,30 @@ const Inside = () => {
                       INSIDE BULLA<span className="outlined-text">SOFT</span>
                 </h2>
                 <div className="inside-column">
-                      <span>Why</span>
+                      
                       <i className="ri-lightbulb-flash-line"></i>
+                      <span>Why</span>
                       <p className="column-description">
-                        We exist to empower African entrepreneurs and small businesses by
-                        building affordable, high-quality digital platforms. We believe a 
-                        strong online presence is foundation for success in the digital age
+                       We believe African start-ups deserve digital platforms that turn visitors
+                       into customers. Our goal is to make it easy for anyone to launch and grow.
                       </p>
                 </div>
                 <div className="inside-column">
-                      <span>What</span>
+                      
                       <i className="ri-macbook-line"></i>
+                      <span>What</span>
                       <p className="column-description">
-                       Bullasoft is a digital construction company that designs and develops websites,
-                       e-commerce stores, content platform, and digital tools. We also offer hosting services
-                       and tech consultancy for start-ups and creators.
+                      Build high-converting eCommerce stores, mobile apps, landing pages, and
+                      offer hosting services tailored to your business goals
                       </p>
                 </div>
                 <div className="inside-column">
-                      <span>How</span>
+                      
                       <i className="ri-settings-line"></i>
+                      <span>How</span>
                       <p className="column-description">
-                        We use modern web technologies like WordPress, JavaScript, and custom design to build scalable,
-                        responsive websites. We combine technical skills with creative thinking to deliver digital products
-                        tailored to each client's goals
+                      Using modern design, clean code, and intuitive UX, we create websites that are
+                      easy to navigate, fast to load, and optimized for conversions.
 
                       </p>
                 </div>
