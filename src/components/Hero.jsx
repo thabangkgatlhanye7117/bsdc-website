@@ -1,21 +1,17 @@
 
 const Hero = () => {
 
-   /* const sr = ScrollReveal({
-  origin: 'top',
-  distance: '60px',
-  duration: 2500,
-  delay: 400,
-  // reset: true // Animations repeat
-})
-sr.reveal(`.hero-heading`, {origin:'right'})
-sr.reveal(`.hero-text-container`, {origin:'left'})
-sr.reveal(`hero-buttons`, {interval: 100})*/
+  
       return(
         <section className="hero-section section" id="hero">
           
-            <div className="hero-container container grid">
-                  <h1 className="hero-heading">Digital Construction<br/><span>Agency</span></h1>
+            <div className="hero-container container ">
+                  <h1 className="hero-heading">DIGITAL <br/>
+
+                    <span className="hero-span-1 outlined-text">CONSTRUCTION</span><br/>
+                    <span className="hero-span-2">AGENCY</span>
+              
+                  </h1>
                 
                 <div className="hero-text-container">
                     <p className="hero-statement">
@@ -36,15 +32,11 @@ sr.reveal(`hero-buttons`, {interval: 100})*/
 
                     
                 </div>
-                <div className="hero-image">
-                    <h3 className="hero-image-text">
-                      POWERING DIGITAL COMMERCE
-                    </h3>
-                </div>
                 <div className="scroll-button">
                     <span className="scroll-text">scroll down</span>
                       <i className="ri-arrow-down-line"></i>
                 </div>
+
 
             </div>
                 

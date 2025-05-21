@@ -3,7 +3,7 @@ import Hero from "./components/Hero"
 import Reasons from "./components/Reasons"
 import Help from "./components/Help"
 import Projects from "./components/Projects"
-import ParticlesComponent from "./components/ParticlesComponent"
+import Inside from "./components/Inside"
 const Layout = () => {
 return(
   <>
@@ -17,7 +17,8 @@ return(
     
        {/*MAIN*/}
       <main>
-       <Hero/>    
+       <Hero/>
+       <Inside/>    
           
            
           
