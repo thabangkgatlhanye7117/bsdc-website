@@ -54,7 +54,7 @@ const Inside = () => {
                 <div className="inside-column from-bottom">
                       
                       <i className="ri-macbook-line"></i>
-                      <div className="column-desrciption">
+                      <div className="column-description">
                           <span>What</span>
                           <p >
                             Build high-converting eCommerce stores, mobile apps, landing pages, and
@@ -65,7 +65,7 @@ const Inside = () => {
                 <div className="inside-column from-bottom">
                       
                       <i className="ri-settings-line"></i>
-                     <div className="column-desrciption">
+                     <div className="column-description">
                          <span>How</span>
                           <p>
                           Using modern design, clean code, and intuitive UX, we create websites that are

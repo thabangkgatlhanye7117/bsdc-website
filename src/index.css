@@ -479,7 +479,6 @@
   }
   .column-description{
     display: grid;
-    row-gap: 1rem;
   }
   .inside-column i{
     font-size: 2rem;
