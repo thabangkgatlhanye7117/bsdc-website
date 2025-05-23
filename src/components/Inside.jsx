@@ -56,7 +56,7 @@ const Inside = () => {
                       <i className="ri-macbook-line"></i>
                       <div className="column-desrciption">
                           <span>What</span>
-                          <p className="column-description">
+                          <p >
                             Build high-converting eCommerce stores, mobile apps, landing pages, and
                             offer hosting services tailored to your business goals
                           </p>
@@ -67,10 +67,10 @@ const Inside = () => {
                       <i className="ri-settings-line"></i>
                      <div className="column-desrciption">
                          <span>How</span>
-                          <p className="column-description">
+                          <p>
                           Using modern design, clean code, and intuitive UX, we create websites that are
                           easy to navigate, fast to load, and optimized for conversions.
-                      </p>
+                          </p>
                      </div>
                 </div>
             </div>
