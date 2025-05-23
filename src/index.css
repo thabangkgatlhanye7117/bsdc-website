@@ -4,7 +4,7 @@
 
 /*VARIABLES CSS*/
 :root {
---header-height: 3.5rem;
+--header-height: 4rem;
   /*Color*/
   --first-color:  #004169;
  --black-color : hsl(0, 0%, 0%);
@@ -18,7 +18,7 @@
   /*Fonts and typography*/
 
   --body-font:"Satoshi", san-serif; 
-  --biggest-font: 2.5rem;
+  --biggest-font: 3rem;
   --h1-font-size: 1.75rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -243,12 +243,12 @@
     object-fit: cover;
   }
   .logo{
-    width: 100px;
-    height:120px
+    width: 120px;
+    height:150px
   }
   .logo-name{
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 120px;
     margin-top: 20px;
   }
   .nav-buttons{
@@ -379,7 +379,7 @@
     height: 35px;
     background-color:transparent;
     color: var(--first-color);
-    border: solid 2px var(--first-color) ;
+    border: solid 3px var(--first-color) ;
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
     
@@ -407,8 +407,8 @@
     display: flex;
     width: max-content;
     margin: 0 auto;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     display: grid;
     place-items: center;
     font-size: 1rem;
@@ -463,7 +463,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius:20px;
+    border-radius:30px;
     padding: 1rem;
 
   }
@@ -488,6 +488,7 @@
     font-weight: var(--font-semi-bold);
     font-size: var(--normal-font-size);
   }
+  .und
 
   /*REASON-SECTION*/
 
