@@ -342,7 +342,7 @@
     font-size: var(--h2-font-size);
     text-align: center;
     width: 100%;
-    height: 50px;
+    height: 40px;
     
   }
 
@@ -407,11 +407,11 @@
     display: flex;
     width: max-content;
     margin: 0 auto;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: grid;
     place-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     overflow: hidden;
     background-color: #004169;
@@ -449,7 +449,7 @@
 
     .inside-container{
     display: grid;
-    border-radius:20px;
+    border-radius:30px;
     width: 100%;
     height: 800px;
     color:var(--white-color);
