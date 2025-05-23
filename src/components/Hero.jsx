@@ -32,16 +32,18 @@ const Hero = () => {
         <section className="hero-section section" id="hero">
           
             <div className="hero-container container ">
-                  <h1 className="hero-heading from-left">DIGITAL <br/>
 
-                    <span className="hero-span-1 outlined-text">CONSTRUCTION</span><br/>
-                    <span className="hero-span-2">AGENCY</span>
+                  <span>We are a...</span>
+                  <h1 className="hero-heading from-left">Digital <br/>
+
+                    <span className="hero-span-1 outlined-text">Construction</span><br/>
+                    <span className="hero-span-2">Agency</span>
               
                   </h1>
                 
                 <div className="hero-text-container">
                     <p className="hero-statement from-right">
-                      We're digital architects, specializing in the construction of modern <span>e-commerce stores</span>,
+                      Digital Architects, specializing in the construction of modern <span>e-commerce stores</span>,
                        landing pages
                       and mobile apps that help <span>start-ups</span> and growing businesses thrive
                       in the digital world.
@@ -50,10 +52,10 @@ const Hero = () => {
                 </div>
                 <div className="hero-buttons from-left">
                     <button className="quote-button button"id="quote-button">
-                          Get Quote
+                          Contact us
                     </button>
                     <button className="view-work-button button">
-                          View Our Work
+                          Our work
                     </button>
 
                     

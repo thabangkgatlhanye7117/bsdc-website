@@ -9,7 +9,7 @@ return(
   <>
       
       {/*HEADER*/}
-      <header className="header shadow" id="header">
+      <header className="header " id="header">
           <Header/>
       </header> 
 
