@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-import Reasons from "./components/Reasons"
+import RequestQuote from "./components/RequestQuote"
 import Help from "./components/Help"
 import Projects from "./components/Projects"
 import Inside from "./components/Inside"
@@ -20,7 +20,8 @@ return(
        <Hero/>
        <Inside/> 
        <Projects/>   
-      <Help/>  
+       <Help/> 
+       <RequestQuote/> 
            
           
       </main>

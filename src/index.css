@@ -552,6 +552,7 @@
   .help-heading{
     text-align: center;
     color: #004169;
+    margin-bottom: 3rem;
   }
   .benefit-description{
     margin-bottom: 3rem;
@@ -592,4 +593,47 @@ border-radius: 12px;
 border: none;
 color: white;
 background-color: #004169;
+}
+.quote-section{
+  margin-top: 80px;
+  height: 900px;
+}
+.quote-container{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1rem;
+  background-color: #004169;
+  color:white;
+}
+.user-name, .user-email, .user-surname, .user-number{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  background: transparent;
+  padding: 5px;
+  color: white;
+}
+.quote-form{
+  height:100%;
+  display: grid;
+}
+#option{
+  margin-right: 10px;
+}
+.form-container{
+  display: grid;
+}
+.form-submit-button{
+  width: 150px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color:black;
+  border-radius: 12px;
+}
+
+.form-radio-buttons{
+  display: grid;
 }
