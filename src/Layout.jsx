@@ -18,8 +18,9 @@ return(
        {/*MAIN*/}
       <main>
        <Hero/>
-       <Inside/>    
-          
+       <Inside/> 
+       <Projects/>   
+      <Help/>  
            
           
       </main>

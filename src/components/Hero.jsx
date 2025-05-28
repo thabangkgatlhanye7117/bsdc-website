@@ -33,7 +33,7 @@ const Hero = () => {
           
             <div className="hero-container container ">
 
-                  <span>We are a...</span>
+                  
                   <h1 className="hero-heading from-left">Digital <br/>
 
                     <span className="hero-span-1 outlined-text">Construction</span><br/>
