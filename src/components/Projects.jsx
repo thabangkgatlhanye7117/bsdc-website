@@ -1,12 +1,39 @@
+import ScrollReveal from 'scrollreveal'
+import { useEffect } from 'react'
 const Projects = () => {
+
+     useEffect(()=>{
+    ScrollReveal().reveal('.from-left', {
+      origin:'left',
+      distance:'50px',
+      duration:1500,
+    });
+
+    ScrollReveal().reveal('.from-right', {
+      origin:'right',
+      distance:'50px',
+      duration:1500,
+    });
+
+    ScrollReveal().reveal('.from-top', {
+      origin:'top',
+      distance:'50px',
+      duration:1500,
+    });
+    ScrollReveal().reveal('.from-bottom', {
+      origin:'bottom',
+      distance:'50px',
+      duration:1500,
+    });
+   })
 
    return(
       <section className="projects-section">
           <div className="projects-container">
-             <h2 className="projects-heading">
+             <h2 className="projects-heading from-bottom">
                 PROJECTS PORTFOLIO
              </h2>
-             <div className="projects-card">
+             <div className="projects-card from-bottom">
                 <div className="project-image"></div>
                 <div className="project-info">
                     <h3 className="project-title">LUNA HAIR</h3>
