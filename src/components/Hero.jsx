@@ -29,7 +29,7 @@ const Hero = () => {
   },[])
   
       return(
-        <section className="hero-section section" id="hero">
+        <section className="hero-section " id="hero">
           
             <div className="hero-container container ">
 
@@ -37,22 +37,22 @@ const Hero = () => {
                   <h1 className="hero-heading from-left">Digital <br/>
 
                     <span className="hero-span-1 outlined-text">Construction</span><br/>
-                    <span className="hero-span-2">Agency</span>
+                    {/*<span className="hero-span-2">Agency</span>*/}
               
                   </h1>
                 
                 <div className="hero-text-container">
                     <p className="hero-statement from-right">
-                      Digital Architects, specializing in the construction of modern <span>e-commerce stores</span>,
+                      <span>DIGITAL ARCHITECTS</span>, specializing in the construction of modern <span>E-COMMERCE STORES</span>,
                        landing pages
-                      and mobile apps that help <span>start-ups</span> and growing businesses thrive
-                      in the digital world.
+                      and mobile apps that help <span>START-UPS</span> and growing businesses thrive
+                      in the <span>DIGITAL WORLD.</span>
                                             
                     </p>
                 </div>
                 <div className="hero-buttons from-left">
                     <button className="quote-button button"id="quote-button">
-                          Contact us
+                          Request Quote
                     </button>
                     <button className="view-work-button button">
                           Our work
@@ -60,13 +60,15 @@ const Hero = () => {
 
                     
                 </div>
-                <a href='#inside-image' className="scroll-button from-bottom">
+                <a href='#hero-image-container' className="scroll-button from-bottom">
                     <span className="scroll-text">scroll down</span>
                       <i className="ri-arrow-down-line"></i>
                 </a>
 
-
             </div>
+             <div className="hero-image-container" id='hero-image-container'>
+                   <img src='/ecom-sign.webp' width={'100%'} height={'180px'} alt='ecommerce-sign'/>
+              </div>
                 
         </section>
       )  

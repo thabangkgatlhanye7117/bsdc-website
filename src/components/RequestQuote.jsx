@@ -42,15 +42,15 @@ const RequestQuote = ()=> {
             </div>
             <div>
                <input type="radio" id="option" />
-               <label htmlFor="">A clean and simple website to tell people who i am, 
-                              what i offer and how they can contact me 
+               <label htmlFor="">Showcase my products online, without online paymnets, with a whataspp button. 
+                               
                </label>
             </div>
 
             <div>
                <input type="radio" id="option" />
-               <label htmlFor="">A clean and simple website to tell people who i am, 
-                              what i offer and how they can contact me 
+               <label htmlFor="">Sell my products online, with online payments 
+                              
                </label>
             </div>
 

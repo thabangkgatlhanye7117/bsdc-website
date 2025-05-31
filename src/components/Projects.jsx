@@ -34,9 +34,11 @@ const Projects = () => {
                 PROJECTS PORTFOLIO
              </h2>
              <div className="projects-card from-bottom">
-                <div className="project-image"></div>
+                <div className="project-image">
+                  <img src='/fn-logo.png' loading='lazy' alt='football-nostalgia-logo'/>
+                </div>
                 <div className="project-info">
-                    <h3 className="project-title">LUNA HAIR</h3>
+                    <h3 className="project-title">Football Nostalgia</h3>
                     <p className="project-details">Custom Landing Page, Conversion Optimization</p>
                     <button className="read-more">Read More</button>
                 </div>
