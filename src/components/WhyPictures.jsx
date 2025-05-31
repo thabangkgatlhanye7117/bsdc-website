@@ -39,12 +39,12 @@ const WhyPictures = ()=>{
             <div className="ecommerce-pictures">
 
               <div className='img-1-div from-left'>
-                <img src="/ecom-laptop.webp" height={'100%'}/>
+                <img src="/ecom-laptop.webp" loading='lazy' height={'100%'}/>
               </div>
 
               <div className="img-2-3 ">
-                <img className='from-right' src="/e-shopping.webp"/>
-                <img className='from-bottom' src="/online-store.webp"/>
+                <img className='from-right'  loading='lazy' src="/e-shopping.webp"/>
+                <img className='from-bottom'  loading='lazy' src="/online-store.webp"/>
               </div>
               
             </div>
