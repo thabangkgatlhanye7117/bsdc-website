@@ -1,21 +1,50 @@
+import ScrollReveal from 'scrollreveal'
+import { useEffect } from 'react'
 const WhyPictures = ()=>{
+
+   useEffect(()=>{
+          ScrollReveal().reveal('.from-left', {
+            origin:'left',
+            distance:'80px',
+            duration:1500,
+          });
+      
+          ScrollReveal().reveal('.from-right', {
+            origin:'right',
+            distance:'80px',
+            duration:1500,
+          });
+      
+          ScrollReveal().reveal('.from-top', {
+            origin:'top',
+            distance:'80px',
+            duration:1500,
+          });
+          ScrollReveal().reveal('.from-bottom', {
+            origin:'bottom',
+            distance:'80px',
+            duration:1500,
+          });
+        })
 
   return(
     <section className="pictures-section">
           <div className="pictures-container">
+            <div className='heading-container from-bottom'>
             <i className="ri-pages-line"></i>
-            <h3 className="pictures-heading">
-              Why rely on foot customerswhen people are buying online!
-            </h3>
+            <h2 className="pictures-heading">
+              Why rely on foot customers when people are buying online!
+            </h2>
+            </div>
             <div className="ecommerce-pictures">
 
-              <div className='img-1-div'>
-                <img/>
+              <div className='img-1-div from-left'>
+                <img src="/ecom-laptop.webp" height={'100%'}/>
               </div>
 
-              <div className="img-2-3">
-                <img/>
-                <img/>
+              <div className="img-2-3 ">
+                <img className='from-right' src="/e-shopping.webp"/>
+                <img className='from-bottom' src="/online-store.webp"/>
               </div>
               
             </div>

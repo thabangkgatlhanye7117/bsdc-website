@@ -4,6 +4,8 @@ import RequestQuote from "./components/RequestQuote"
 import Help from "./components/Help"
 import Projects from "./components/Projects"
 import Inside from "./components/Inside"
+import WhyPictures from "./components/WhyPictures"
+import Footer from "./components/Footer"
 const Layout = () => {
 return(
   <>
@@ -21,11 +23,14 @@ return(
        <Inside/> 
        <Projects/>   
        <Help/> 
+       <WhyPictures/>
        <RequestQuote/> 
            
           
       </main>
-
+      <footer>
+        <Footer/>
+      </footer>
 
 
   </>

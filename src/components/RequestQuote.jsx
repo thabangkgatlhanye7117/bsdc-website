@@ -56,8 +56,8 @@ const RequestQuote = ()=> {
 
             <div>
                <input type="radio" id="option" />
-               <label htmlFor="">A clean and simple website to tell people who i am, 
-                              what i offer and how they can contact me 
+               <label htmlFor="">A fully customized website to meet my business needs 
+                              
                </label>
             </div>
             <button className="form-submit-button">Submit</button>

@@ -44,8 +44,7 @@ const Hero = () => {
                 <div className="hero-text-container">
                     <p className="hero-statement from-right">
                       <span>DIGITAL ARCHITECTS</span>, specializing in the construction of modern <span>E-COMMERCE STORES</span>,
-                       landing pages
-                      and mobile apps that help <span>START-UPS</span> and growing businesses thrive
+                      that help <span>START-UPS</span> and growing businesses thrive
                       in the <span>DIGITAL WORLD.</span>
                                             
                     </p>
