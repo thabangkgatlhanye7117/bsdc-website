@@ -60,7 +60,7 @@ const Hero = () => {
 
                     
                 </div>
-                <a href='#hero-image-container' className="scroll-button from-bottom">
+                <a href='#inside-container' className="scroll-button from-bottom">
                     <span className="scroll-text">scroll down</span>
                      <div className='scroll-arrow'>
                         <i className="ri-arrow-down-line "></i>
