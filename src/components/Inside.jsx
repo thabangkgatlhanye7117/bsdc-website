@@ -39,39 +39,47 @@ const Inside = () => {
                 <h3 className="inside-heading from-bottom">
                       Inside Bullasoft
                 </h3>
-                <div className="inside-column from-bottom">
-                      
-                      <i className="ri-lightbulb-flash-line"></i>
-                      <div className="column-description">
-                          <span>Why</span>
-                          <p>
-                          We believe African start-ups deserve digital platforms that turn visitors
-                          into customers. Our goal is to make it easy for anyone to launch and grow.
-                          </p>
-                      </div>
+                <div className='inside-columns-container'>
 
-                </div>
-                <div className="inside-column from-bottom">
+                   <div className="inside-column  glass-card from-bottom">
+                      
+                       <i className="ri-lightbulb-flash-line"></i>
+                       <div className="column-description">
+                          <span>Problem</span>
+                          <p>
+                            Startups and schools often lack an online presence due to cost, limited
+                            digital knowledge, and not realizing the impact an eCommerce store or digital school
+                            can have on their growth and engagement. 
+                          </p>
+                       </div>
+
+                   </div>
+                
+                   <div className="inside-column glass-card from-bottom">
                       
                       <i className="ri-macbook-line"></i>
                       <div className="column-description">
-                          <span>What</span>
+                          <span>Solution</span>
                           <p >
-                            Build high-converting eCommerce stores, mobile apps, landing pages, and
-                            offer hosting services tailored to your business goals
+                            Bullasoft helps startups and educational institutions go digital with affordable, high-quality
+                            websites, online stores, and portals__built to boost visibilty, efficiency, and trust.
+                            
                           </p>
                       </div>
-                </div>
-                <div className="inside-column from-bottom">
+                   </div>
+                   <div className="inside-column glass-card from-bottom">
                       
                       <i className="ri-settings-line"></i>
                      <div className="column-description">
-                         <span>How</span>
+                         <span>Method</span>
                           <p>
-                          Using modern design, clean code, and intuitive UX, we create websites that are
-                          easy to navigate, fast to load, and optimized for conversions.
+                            We design and build fast, modern websites using WordPress and custom tools__offering hosting, support,
+                            and everything needed to launch and grow online.
+                        
                           </p>
                      </div>
+                   </div>
+
                 </div>
             </div>
       

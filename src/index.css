@@ -159,6 +159,20 @@
       background-repeat: none;
       background-size: cover;
     }
+    .glass-card{
+      display: grid;
+      align-items: center;
+      gap: .5rem;
+      border: 1px solid rgba(255, 255, 255, 0.15) ;
+      height: 250px;
+      border-radius: 16px;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px) saturate(150%);
+      -webkit-backdrop-filter: blur(12px) saturate(150%);
+      color: white;
+
+    }
   
    
   /*HEADER*/
@@ -475,7 +489,7 @@
     .inside-container{
     display: grid;
     width: 100%;
-    height: 800px;
+    height: 1200px;
     color:var(--white-color);
     padding: 20px 20px;
     background-color: rgb(10, 10, 10);
@@ -495,29 +509,40 @@
     width: 40px;
     color: white;
   }
-
-
-  .inside-column{
-    display: flex;
-    align-items: top;
-    column-gap: 2rem;
-    
+  .inside-heading{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-regular);
   }
+  .inside-columns-container{
+    display:grid ;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 4rem;
+  }
+
+  
+
+    
+    
+  
   .column-description{
     padding: 0 10px;
   }
   .column-description p{
-    margin-top: 8px;
+    margin-top: 1rem;
+    font-weight: var(--font-regular);
+    font-size: var(--normal-font-size);
     
   }
   .inside-column i{
-    font-size: 2rem;
+    font-size: 3rem;
     display: block;
   }
   .inside-column span{
     margin-top: 1rem;
     font-weight: var(--font-regular);
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     
   }
   .und
@@ -570,6 +595,7 @@
       padding: 2rem;
       width: 100%;
       height: 750px;
+    
   }
   .help-heading{
     text-align: center;
