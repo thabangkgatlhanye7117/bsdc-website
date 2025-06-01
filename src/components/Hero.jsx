@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="hero-container container ">
 
                   <span className="social-kicker">
-                    WElCOME TO BULLASOFT.
+                    WELCOME TO BULLASOFT.
                   </span>
                   <h3 className="hero-heading from-left">
                       TURNING <span>STARTUPS</span> INTO STANDOUTS<br/>

@@ -18,7 +18,7 @@
 
   /*Fonts and typography*/
 
-  --body-font:"Ancizar Serif", san-serif; 
+  --body-font:"Satoshi", san-serif; 
   --biggest-font: 3rem;
   --h1-font-size: 1.85rem;
   --h2-font-size: 1.25rem;
@@ -355,7 +355,7 @@
     width: 100%;
     height:100%;
     color:var(--black-color);
-    padding: 150px 20px;
+    padding: 120px 20px;
   }
   .hero-text-container{
     font-size: var(--h3-font-size);
@@ -366,7 +366,7 @@
   .social-kicker{
     font-size: var(--small-font-size);
     font-weight: var(--font-bold);
-    margin-bottom: 5px;
+    
   }
 
   .hero-heading{
@@ -374,6 +374,7 @@
     font-size: var(--h1-font-size);
     line-height: 1;
     margin-bottom: 1.3rem;
+    margin-top: 1rem;
   }
   .hero-heading span{
     font-weight: var(--font-bold);
@@ -437,7 +438,7 @@
     gap: .5rem;
     align-items:center;
     width: max-content;
-    width: 120px;
+    width: 150px;
     height: 50px;
     justify-content:center;
     font-size: 1rem;
@@ -482,7 +483,7 @@
   /*Inside Section*/
 
     .inside-section{
-     margin-top: 10px;
+     
      object-fit: contain; 
     }
 
