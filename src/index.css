@@ -20,7 +20,7 @@
 
   --body-font:"Ancizar Serif", san-serif; 
   --biggest-font: 3rem;
-  --h1-font-size: 1.75rem;
+  --h1-font-size: 1.85rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
   --normal-font-size: 0.938rem;
@@ -32,7 +32,7 @@
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
-  --font-bold: 700;
+  --font-bold: 800;
 
   /*z-index*/
   --z-tooltip: 10;
@@ -352,7 +352,7 @@
   .social-kicker{
     font-size: var(--small-font-size);
     font-weight: var(--font-bold);
-    margin-bottom: 2rem;
+    margin-bottom: 5px;
   }
 
   .hero-heading{
@@ -417,7 +417,7 @@
   
   .scroll-button{
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     right: 1rem;
     display: flex;
     gap: .5rem;
