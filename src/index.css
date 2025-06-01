@@ -417,7 +417,7 @@
   
   .scroll-button{
     position: absolute;
-    bottom: 10px;
+    bottom: 2rem;
     right: 1rem;
     display: flex;
     gap: .5rem;
