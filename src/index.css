@@ -352,7 +352,7 @@
   .social-kicker{
     font-size: var(--small-font-size);
     font-weight: var(--font-bold);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .hero-heading{
@@ -417,7 +417,7 @@
   
   .scroll-button{
     position: absolute;
-    bottom: 2rem;
+    bottom: 50px;
     right: 1rem;
     display: flex;
     gap: .5rem;
