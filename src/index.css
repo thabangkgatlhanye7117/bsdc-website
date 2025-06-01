@@ -329,33 +329,40 @@
   /*MAIN*/
   /*HERO-SECTION*/
  .hero-section{
-  height:800px;
-  padding-top: 70px;
+  height:100vh;
+  
 
  }
   .hero-container{
-    display: grid;
-    place-items:center;
+    background-image:url('/hero-background.webp');
+    background-position:center ;
+    background-repeat: none;
+    background-size: cover;
     width: 100%;
-    height: 73%;
+    height:100%;
     color:var(--black-color);
-    padding: 0 20px;
+    padding: 150px 20px;
   }
   .hero-text-container{
-    display: grid;
-    place-items: center;
-    font-size: var(--h2-font-size);
-    text-align: center;
+    font-size: var(--h3-font-size);
     width: 100%;
     height: 40px;
     
   }
+  .social-kicker{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 1rem;
+  }
 
   .hero-heading{
-    text-align: center;
-    font-weight: var(--font-semi-bold);
-    font-size: var(--biggest-font);
+    font-weight: var(--font-medium);
+    font-size: var(--h1-font-size);
     line-height: 1;
+    margin-bottom: 1.3rem;
+  }
+  .hero-heading span{
+    font-weight: var(--font-bold);
   }
   
  
@@ -364,14 +371,12 @@
     color: rgb(53, 53, 53);
   
   }
-  .hero-statement span{
-    text-decoration:underline var(--first-color) 2px;
+ 
     
-  }
+  
   .hero-buttons{
-    display: grid;
-    place-items: center;
-    text-align: center;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100px;
     font-weight: var(--font-semi-bold);
@@ -380,25 +385,29 @@
     
   }
   .quote-button{
-    width: 180px;
+    width: 150px;
     height: 40px;
     background-color:var(--first-color);
     color: var(--white-color);
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
+    font-size: 1rem;
+    font-weight: var(--font-semi-bold);
     border: none;
+    margin-right: 1rem;
     
+  }
+  .quote-button:hover{
+    font-size: 1.08rem;
   }
   
   
   .view-work-button{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     background-color:transparent;
-    border: solid 3px var(--black-color) ;
+    border: solid 1px var(--black-color) ;
     font-weight:var(--font-semi-bold);
-    font-size: var(--small-font-size);
-    margin-top: 1rem;
+    font-size: 1rem;
+    
   }
   .view-work-button:hover{
     background-color: black;
@@ -407,23 +416,39 @@
 
   
   .scroll-button{
+    position: absolute;
+    bottom: 10px;
+    right: 1rem;
     display: flex;
-    align-items: center;
+    gap: .5rem;
+    align-items:center;
     width: max-content;
-    width: 300px;
-    height: 100px;
-    justify-content: center;
+    width: 120px;
+    height: 50px;
+    justify-content:center;
     font-size: 1rem;
+    font-weight: var(--font-medium);
+    border-radius: 12px;
     cursor: pointer;
     overflow: hidden;
     color: var(--black-color);
-    
+     
   }
-  
-   .scroll-button i{
+   .scroll-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 2px solid black ;
+    border-radius: 50%;
+   }
+   .scroll-text{
+    font-weight: var(--font-medium);
+   }
+   .scroll-arrow i{
     animation: scroll-down 3s infinite;
-    
-    
+   
   }
   @keyframes scroll-down {
     0%{
@@ -644,7 +669,7 @@ background-color: #004169;
 .pictures-container{
   
   width: 100%;
-  height: 400px;
+  height: 4c00px;
   padding: 1rem;
   
 }
