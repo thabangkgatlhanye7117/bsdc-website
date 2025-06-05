@@ -123,6 +123,7 @@
   }
   a {
     text-decoration: none;
+    
   }
   img {
     display: block;
@@ -400,6 +401,8 @@
     
   }
   .quote-button{
+    display: grid;
+    place-content: center;
     width: 150px;
     height: 40px;
     background-color:var(--first-color);
@@ -416,12 +419,15 @@
   
   
   .view-work-button{
+    display: grid;
+    place-content: center;
     width: 150px;
     height: 40px;
     background-color:transparent;
     border: solid 1px var(--black-color) ;
     font-weight:var(--font-semi-bold);
     font-size: 1rem;
+    color: black;
     
   }
   .view-work-button:hover{
@@ -767,6 +773,8 @@ footer{
   
 }
 .footer-button{
+  display: grid;
+  place-content: center;
   width: 150px;
   height:40px ;
   border: 2px solid white;
@@ -774,4 +782,7 @@ footer{
   color: white;
   border-radius: 12px;
   margin-top: 2rem;
+}
+.quick-link a{
+  color: white;
 }

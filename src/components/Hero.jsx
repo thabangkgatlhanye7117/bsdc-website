@@ -51,12 +51,12 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="hero-buttons from-left">
-                    <button className="quote-button button"id="quote-button">
+                    <a href='#quote-section' className="quote-button button"id="quote-button">
                           Request Quote
-                    </button>
-                    <button className="view-work-button button">
+                    </a>
+                    <a href='#project-portfolio' className="view-work-button button">
                           Our work
-                    </button>
+                    </a>
 
                     
                 </div>

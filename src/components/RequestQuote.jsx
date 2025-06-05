@@ -1,7 +1,7 @@
 const RequestQuote = ()=> {
   return(
 
-    <section className='quote-section'>
+    <section className='quote-section' id="quote-section">
       <div className="quote-container container">
          
           <form className='quote-form' id="quote-form">
