@@ -33,7 +33,7 @@ const WhyPictures = ()=>{
             <div className='heading-container from-bottom'>
             <i className="ri-pages-line"></i>
             <h2 className="pictures-heading">
-              Why rely on foot customers when people are buying online!
+              Why rely on foot traffic when you can sell online?
             </h2>
             </div>
             <div className="ecommerce-pictures">

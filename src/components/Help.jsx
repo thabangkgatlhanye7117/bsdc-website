@@ -30,9 +30,10 @@ const Help = () => {
   return(
     <section className ="help-section">
         <div className="help-container container grid">
-            <h2 className="help-heading from-left">
+            <img src="" alt="" />
+            <h3 className="help-heading from-left">
                 Here's How We Can Help
-            </h2>
+            </h3>
             <div className="benefits-container">
 
                 <h3 className="benefit-title from-right">Increase Reach</h3>

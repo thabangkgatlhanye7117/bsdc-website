@@ -30,9 +30,9 @@ const Projects = () => {
    return(
       <section className="projects-section">
           <div className="projects-container">
-             <h2 className="projects-heading from-bottom">
+             <h3 className="projects-heading from-bottom">
                 PROJECTS PORTFOLIO
-             </h2>
+             </h3>
              <div className="projects-card from-bottom">
                 <div className="project-image">
                   <img src='/fn-logo.png' loading='lazy' alt='football-nostalgia-logo'/>

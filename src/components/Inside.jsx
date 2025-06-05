@@ -83,7 +83,7 @@ const Inside = () => {
                 </div>
             </div>
       
-      
+            <img src='/ecom-sign.webp' width={'100%'}/>
       </section>
   )
 }
