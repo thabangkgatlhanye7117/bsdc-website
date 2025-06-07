@@ -1,3 +1,5 @@
+import React, {useState} from 'react';
+import IntroVideo from './components/IntroVideo';
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import RequestQuote from "./components/RequestQuote"
@@ -7,6 +9,17 @@ import Inside from "./components/Inside"
 import WhyPictures from "./components/WhyPictures"
 import Footer from "./components/Footer"
 const Layout = () => {
+  const [showIntro, setShowIntro] = useState(true);
+
+  const handleIntroEnd = ()=>{
+    setShowIntro(false);
+  };
+
+  if (showIntro){
+    return <IntroVideo
+        onEnd={handleIntroEnd} />
+  }
+  
 return(
   <>
       

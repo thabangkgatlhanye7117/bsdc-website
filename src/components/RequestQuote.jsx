@@ -33,7 +33,7 @@ const RequestQuote = ()=> {
 
           <div className='form-radio-buttons'>
 
-            <span>I am looking for/to</span>
+            <span className="form-heading">I am looking for/to</span>
             <div>
                <input type="radio" id="option" />
                <label htmlFor="">A clean and simple website to tell people who i am, 
@@ -62,6 +62,7 @@ const RequestQuote = ()=> {
             </div>
             <button className="form-submit-button">Submit</button>
         </div>
+        
           </form>
       </div>
     </section>
