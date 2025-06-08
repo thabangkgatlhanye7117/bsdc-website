@@ -2,51 +2,17 @@ import { useState } from "react";
 
 const Header = () => {
 
-  const [isActive, setIsActive] = useState(false);
-    
-/*SHOW MENU*/ 
-const navMenu = document.getElementById("nav-menu");
-const navToggle = document.getElementById("nav-toggle");
-const navClose = document.getElementById("nav-close");
+      const [menuVisible, setMenuVisible] = useState(false);
 
-/*Menu Show*/
+      const toggleMenu = ()=> {
+        setMenuVisible(prev => !prev);
+      };
 
-const menuShow = ()=> {
-  
-     navMenu.classList.add('show-menu')
-   }
+      const closeMenu = ()=>{
+        setMenuVisible(false);
+      };
 
 
-/*Menu Hidden*/
-
-if(navClose) {
-  navClose.addEventListener('click', () => {
-    navMenu.classList.remove('show-menu')
-  })
-}
-
-/*Remove mobile menu*/
-
-const navLink = document.querySelectorAll(".nav-link");
-
-const linkAction = () =>{
-  const  navMenu = document.getElementById('nav-menu');
-  /*Remove the menu when link is clicked */
-  navMenu.classList.remove('show-menu')
-}
-
-navLink.forEach(l => l.addEventListener('click' , linkAction))
-/*shadow header */
-
-const shadowHeader = () => {
-
-      const header = document.getElementById('header');
-
-      this.scrollY >= 50 ? header.classList.add('shadow-header')
-                           :header.classList.remove('shadow-header')
-    
-}
-window.addEventListener('scroll', shadowHeader);
 
 
 
@@ -60,7 +26,7 @@ window.addEventListener('scroll', shadowHeader);
             
       <div className="nav-menu-container">
 
-          <div className="nav-menu" id='nav-menu'>
+          <div className={`nav-menu ${menuVisible ? 'show-menu': ''}`}>
 
                 <h3 className="nav-menu-title">Bullasoft</h3>
 
@@ -77,7 +43,7 @@ window.addEventListener('scroll', shadowHeader);
                 </ul>
                 {/*Close icon */}
 
-                <div className="nav-close" id="nav-close">
+                <div className="nav-close" onClick={closeMenu}>
                     <i className="ri-close-line"></i>
                 </div>
             </div>
@@ -88,7 +54,7 @@ window.addEventListener('scroll', shadowHeader);
             <div className="theme-button">
                 <i class="ri-moon-line change-theme" id="theme-button"></i>
             </div>
-           <button className="nav-toggle" id="nav-toggle" onClick={menuShow}>
+           <button className="nav-toggle" id="nav-toggle" onClick={toggleMenu}>
                <i class="ri-menu-4-line"></i>
            </button>
 
