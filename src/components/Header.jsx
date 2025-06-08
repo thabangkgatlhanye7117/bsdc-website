@@ -34,11 +34,11 @@ const Header = () => {
 
                     
 
-                    <li className="nav-list-item">Home</li>
-                    <li className="nav-list-item">What We Do</li>
-                    <li className="nav-list-item">Services</li>
-                    <li className="nav-list-item">Projects</li>
-                    <li className="nav-list-item">Contact Us</li>
+                    <li className="nav-list-item" onClick={closeMenu}><a href="#hero">Home</a></li>
+                    <li className="nav-list-item" onClick={closeMenu}><a href="#inside">Inside</a></li>
+                    <li className="nav-list-item" onClick={closeMenu}><a href="#project-portfolio">Portfolio</a></li>
+                    <li className="nav-list-item" onClick={closeMenu}><a href="#help">How We Help</a></li>
+                    <li className="nav-list-item" onClick={closeMenu}><a href="#quote-section">Request a Quote</a></li>
 
                 </ul>
                 {/*Close icon */}
