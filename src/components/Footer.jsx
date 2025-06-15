@@ -13,7 +13,7 @@ const Footer = ()=>{
             
       </div>
         <h1 className="footer-tagline">YOUR DIGITAL FUTURE, ENGINEERED BY BULLASOFT</h1>
-        <a href="quote-section" className="footer-button">Request a Quote</a>
+        <a href="#quote-section" className="footer-button">Request a Quote</a>
         <img src="logo-name.webp" />
         <span className="copy-rights">&copy; 2025 Bullasoft Digital Construction. All Rights.</span>
     </footer>
