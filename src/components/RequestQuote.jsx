@@ -26,7 +26,7 @@ const RequestQuote = ()=> {
          },
          (error)=>{
             console.log(error.text);
-            setIsSuccess(true);
+            setIsSuccess(false);
             setStatusMessage('Failed to send message. Please try again.');
          }
       );
@@ -44,22 +44,22 @@ const RequestQuote = ()=> {
                <span className="form-heading">Your Details:</span>
               <div>
                  <label htmlFor="user-name">Name: </label><br/>
-                 <input type="text" className="user-name" id="user-name" required/><br/>
+                 <input type="text" className="form-input" id="user-name" name='user-name'  required/><br/>
               </div>
 
               <div>
                  <label htmlFor="user-surname">Surname: </label><br/>
-                 <input type="text" className="user-surname" id="user-surname" required /><br/>
+                 <input type="text" className="form-input" id="user-surname" name='user-surname' required /><br/>
               </div>
 
               <div>
                  <label htmlFor="user-email">Email: </label><br/>
-                 <input type="email" className="user-email" id="user-email" required /><br/>
+                 <input type="email" className="form-input" id="user-email" name='user-email' required /><br/>
               </div>
 
               <div>
                  <label htmlFor="user-number">Phone: </label><br/>
-                 <input type="number" className="user-number" id="user-number" required /><br/>
+                 <input type="number" className="form-input" id="user-number" name='user-number' required /><br/>
               </div>
             </div>
 
@@ -92,7 +92,7 @@ const RequestQuote = ()=> {
                               
                </label>
             </div>
-            <button className="form-submit-button">Submit</button>
+            <button type='submit' className="form-submit-button">Submit</button>
         </div>
         
           </form>

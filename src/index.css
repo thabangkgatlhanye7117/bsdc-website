@@ -672,7 +672,7 @@ background-color: #004169;
   color:black;
   
 }
-.user-name, .user-email, .user-surname, .user-number{
+.form-input{
   width: 100%;
   border: none;
   border-bottom: 2px solid black;
@@ -684,6 +684,15 @@ background-color: #004169;
 .quote-form{
   height:100%;
   display: grid;
+}
+.quote-form input{
+  background-color: transparent !important;
+  color: black !important;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  outline: none;
+
 }
 #option{
   margin-right: 10px;
