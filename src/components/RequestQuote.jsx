@@ -1,4 +1,5 @@
 import React, {useRef, useState} from 'react';
+import emailjs from '@emailjs/browser'
 
 const RequestQuote = ()=> {
    const form= useRef();
@@ -93,11 +94,13 @@ const RequestQuote = ()=> {
                </label>
             </div>
             <button type='submit' className="form-submit-button">Submit</button>
-        </div>
-        
-          </form>
             {statusMessage && (<p style={{color: isSuccess ? 'green' : 'red' , marginTop: '10px'}}>
             {statusMessage}</p>)} 
+        
+        </div>
+                    
+          </form>
+
       </div>
     </section>
 
