@@ -1,5 +1,6 @@
 import ScrollReveal from 'scrollreveal'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 const Projects = () => {
 
      useEffect(()=>{
@@ -40,7 +41,9 @@ const Projects = () => {
                 <div className="project-info">
                     <h3 className="project-title">Football Nostalgia</h3>
                     <p className="project-details">Custom Landing Page, Conversion Optimization</p>
+                    <Link to='footballNostalgia'>
                     <button className="read-more">Read More</button>
+                    </Link>
                 </div>
              </div>
           </div>
