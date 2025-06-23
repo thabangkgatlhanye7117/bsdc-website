@@ -1,9 +1,9 @@
-import Hero from "/components/Hero.jsx";
-import RequestQuote from "./components/RequestQuote";
-import Help from "./components/Help";
-import Projects from "./components/Projects";
-import Inside from "./components/Inside";
-import WhyPictures from "./components/WhyPictures";
+import Hero from "../components/Hero";
+import RequestQuote from "../components/RequestQuote";
+import Help from "../components/Help";
+import Projects from "../components/Projects";
+import Inside from "../components/Inside";
+import WhyPictures from "../components/WhyPictures";
 
 
 const HomePage = ()=>{

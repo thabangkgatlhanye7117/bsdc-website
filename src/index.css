@@ -651,6 +651,9 @@
  display: grid;
  row-gap: 1rem;
 }
+.project-info p{
+  margin: 1rem 0;
+}
 
 .read-more{
 width: 50%;
@@ -659,6 +662,7 @@ border-radius: 12px;
 border: none;
 color: white;
 background-color: #004169;
+cursor: pointer;
 }
 .quote-section{
   margin-top: 80px;
@@ -807,4 +811,21 @@ footer{
 }
 .quick-link a{
   color: white;
+}
+.fn-section{
+  margin-top: 100px;
+  padding: 1rem;
+  height: 1200px;
+}
+.fn-heading{
+  margin-top: 1rem;
+}
+.back-icon{
+  color: black;
+  font-size: 2rem;
+}
+.visit{
+  background-color: #004169;
+  border: none;
+  height: 30px;
 }
