@@ -28,7 +28,8 @@ const WhyPictures = ()=>{
         })
 
   return(
-    <section className="pictures-section">
+
+    <section className= "pictures-section">
           <div className="pictures-container">
             <div className='heading-container from-bottom'>
             <i className="ri-pages-line"></i>
@@ -38,14 +39,9 @@ const WhyPictures = ()=>{
             </div>
             <div className="ecommerce-pictures">
 
-              <div className='img-1-div from-left'>
-                <img src="/ecom-laptop.webp" loading='lazy' height={'100%'}/>
-              </div>
-
-              <div className="img-2-3 ">
+                <img src="/ecom-laptop.webp" className='from-left'loading='lazy'/>
                 <img className='from-right'  loading='lazy' src="/e-shopping.webp"/>
                 <img className='from-bottom'  loading='lazy' src="/online-store.webp"/>
-              </div>
               
             </div>
           </div>
