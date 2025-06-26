@@ -3,7 +3,7 @@ import IntroVideo from './components/IntroVideo';
 import {Outlet} from 'react-router-dom';
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import ScrollToTop from './components/ScrollTop';
+import ScrollToTop from "./components/ScrollToTop"
 const Layout = () => {
   const [showIntro, setShowIntro] = useState(true);
 
