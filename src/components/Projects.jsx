@@ -35,8 +35,16 @@ const Projects = () => {
                 PROJECTS PORTFOLIO
              </h3>
              <div className="projects-card from-bottom">
-                <div className="project-image">
-                  <img src='/fn-logo.png' loading='lazy' alt='football-nostalgia-logo'/>
+                <div className="project-video-container">
+                   <video     
+                       src='/fn-video.mp4'
+                       autoPlay
+                        muted
+                       loop
+                       preload='auto'
+                       playsInline
+                      className='project-video'
+                  />
                 </div>
                 <div className="project-info">
                     <h3 className="project-title">Football Nostalgia</h3>
