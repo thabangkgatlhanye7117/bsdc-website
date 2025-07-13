@@ -662,7 +662,7 @@
 
 .read-more{
 width: 50%;
-height: 30px;
+height: 40px;
 border-radius: 12px;
 border: none;
 color: white;
@@ -820,12 +820,13 @@ footer{
 
 
 .fn-section{
-  margin-top: 100px;
+  margin-top: 80px;
   padding: .5rem;
-  height: 1000px;
+  height: 1100px;
 }
 .fn-heading{
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .back-icon{
   color: black;
@@ -834,5 +835,5 @@ footer{
 .visit{
   background-color: #004169;
   border: none;
-  height: 30px;
+  height: 40px;
 }
