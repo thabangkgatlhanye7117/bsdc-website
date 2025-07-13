@@ -45,7 +45,7 @@ const Hero = () => {
                 <div className="hero-text-container">
                     <p className="hero-statement from-right">
                     We're the architects of the digital world<br/>
-                    constructing the future of digital store and learning
+                    constructing the future of digital stores and learning
                     platforms that boost reach and sales.
                                             
                     </p>

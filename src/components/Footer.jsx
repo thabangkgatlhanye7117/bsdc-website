@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 const Footer = ()=>{
   return(
     <footer>
@@ -5,7 +6,7 @@ const Footer = ()=>{
       <div className="footer-container">
          <span className="quick-links-heading">QUICK LINKS</span>
           <ul className="quick-links">
-            <li className="quick-link"><a href="#hero">Home</a></li>
+            <Link to="/"><li className="quick-link"><a href="#hero">Home</a></li></Link>
             <li className="quick-link"><a href="#inside">Inside Bullasoft</a></li>
             <li className="quick-link"><a href="#project-portfolio">Project Portfolio</a></li>
             <li className="quick-link"><a href="#help">How We Help</a></li>

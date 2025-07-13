@@ -7,7 +7,7 @@ const FootballNostalgia = ()=>{
               <i className="ri-arrow-left-circle-line back-icon"></i>
             </Link>
              <h1 className="fn-heading">
-                Indroducing Football Nostalgia.
+                Introducing Football Nostalgia.
              </h1>
               <div className="projects-card">
                 <div className="project-image">
