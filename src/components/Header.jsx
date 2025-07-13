@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -28,17 +29,17 @@ const Header = () => {
 
           <div className={`nav-menu ${menuVisible ? 'show-menu': ''}`}>
 
-                <h3 className="nav-menu-title">Bullasoft</h3>
+                <Link to="/"><h3 className="nav-menu-title">Bullasoft</h3></Link>
 
                 <ul className="nav-list">
 
                     
 
-                    <li className="nav-list-item" onClick={closeMenu}><a href="#hero">Home</a></li>
-                    <li className="nav-list-item" onClick={closeMenu}><a href="#inside">Inside</a></li>
-                    <li className="nav-list-item" onClick={closeMenu}><a href="#project-portfolio">Portfolio</a></li>
-                    <li className="nav-list-item" onClick={closeMenu}><a href="#help">How We Help</a></li>
-                    <li className="nav-list-item" onClick={closeMenu}><a href="#quote-section">Request a Quote</a></li>
+                    <Link to="/#hero"><li className="nav-list-item" onClick={closeMenu}><a href="#hero">Home</a></li></Link>
+                     <Link to="/#inside"><li className="nav-list-item" onClick={closeMenu}><a href="#inside">Inside</a></li></Link>
+                     <Link to="/#project-portfolio"><li className="nav-list-item" onClick={closeMenu}><a href="#project-portfolio">Portfolio</a></li></Link>
+                     <Link to="/#help"><li className="nav-list-item" onClick={closeMenu}><a href="#help">How We Help</a></li></Link>
+                     <Link to="/#quote-section"><li className="nav-list-item" onClick={closeMenu}><a href="#quote-section">Request a Quote</a></li></Link>
 
                 </ul>
                 {/*Close icon */}
