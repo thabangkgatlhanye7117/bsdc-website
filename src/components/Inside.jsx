@@ -73,7 +73,7 @@ const Inside = () => {
                      <div className="column-description">
                          <span>Method</span>
                           <p>
-                            We design and build fast, modern websites using WordPress and custom tools__offering hosting, support,
+                            We design and build fast, modern websites using custom tools__offering hosting, support,
                             and everything needed to launch and grow online.
                         
                           </p>
