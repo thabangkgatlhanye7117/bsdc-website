@@ -21,7 +21,7 @@ const Header = () => {
         <nav className="nav-container">
 
             <a className="nav-logo-container">
-               <img className="logo" src="/logo.webp" loading='lazy' alt="logo"/>
+               <img className="logo" src="/bullasoft-logo-header.webp" loading='lazy' alt="logo"/>
                
             </a>
             
@@ -52,11 +52,11 @@ const Header = () => {
       <div className="nav-buttons">
 
             {/*Theme-icon*/}
-            <div className="theme-button">
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
-            </div>
+           
            <button className="nav-toggle" id="nav-toggle" onClick={toggleMenu}>
+                <span  className="menu-span">menu</span>
                <i class="ri-menu-4-line"></i>
+             
            </button>
 
       </div>

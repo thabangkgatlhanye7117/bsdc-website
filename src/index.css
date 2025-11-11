@@ -7,7 +7,7 @@
 :root {
 --header-height: 4rem;
   /*Color*/
-  --first-color:  #004169;
+  --first-color:  #007BA7;
  --black-color : hsl(0, 0%, 0%);
  --black-color-light : hsl(0, 0%, 40%);
  --white-color : hsl(0, 0%, 95%);
@@ -282,21 +282,19 @@
   }
   
   .nav-toggle{
-      width: 30px;
+      width: 100px;
+      display: flex;
+     justify-content: space-around;
       height: 30px;
-      border: none;
+      border: 3px solid #007BA7;
       color: var(--black-color);
-      display: grid;
+     border-radius: 20px;
       background-color: transparent;
       place-items: center;
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       cursor: pointer;
   }
-  .theme-button{
-    color: black;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
+  
     .nav-list-item::after{
     content: '';
     width: 0%;
@@ -435,7 +433,7 @@
     width: 150px;
     height: 40px;
     background-color:transparent;
-    border: solid 1px var(--black-color) ;
+    border: solid 3px var(--first-color) ;
     font-weight:var(--font-semi-bold);
     font-size: 1rem;
     color: black;
@@ -472,7 +470,7 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    border: 2px solid black ;
+    border: 2px solid var(--first-color) ;
     border-radius: 50%;
    }
    .scroll-text{
@@ -574,7 +572,7 @@
   }
  
   .reason-heading{
- color: #004169;
+ color: var(--first-color);
   }
   .reason {
      
@@ -617,7 +615,7 @@
   }
   .help-heading{
     
-    color: #004169;
+    color:var(--first-color);
     margin-bottom: 3rem;
   }
   .benefit-description{
@@ -632,7 +630,7 @@
 .projects-heading{
   
   margin: 50px 20px;
-  color: #004169;
+  color: var(--first-color);
 }
 .projects-card{
   height: 400px;
@@ -666,7 +664,7 @@ height: 40px;
 border-radius: 12px;
 border: none;
 color: white;
-background-color: #004169;
+background-color: var(--first-color);
 cursor: pointer;
 }
 .quote-section{
@@ -833,7 +831,7 @@ footer{
   font-size: 2rem;
 }
 .visit{
-  background-color: #004169;
+  background-color:var(--first-color);
   border: none;
   height: 40px;
 }
