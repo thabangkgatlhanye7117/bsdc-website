@@ -29,68 +29,59 @@ const Projects = () => {
    })
 
    return(
-      <section className="projects-section " id='project-portfolio'>
-          <div className="projects-container">
-             <h3 className="projects-heading from-bottom">
-                PROJECTS PORTFOLIO
-             </h3>
-             <div className="projects-card from-bottom">
-                <div className="project-video-container">
-                   <video     
-                       src='/fn-video.mp4'
-                       autoPlay
-                        muted
-                       loop
-                       preload='auto'
-                       playsInline
-                      className='project-video'
-                  />
-                </div>
-                <div className="project-info">
-                    <h3 className="project-title">Football Nostalgia</h3>
-                    <p className="project-details">Custom Landing Page, Conversion Optimization</p>
-                    <Link to='footballNostalgia'>
-                    <button className="read-more">Read More</button>
-                    </Link>
-                </div>
-                
-             </div>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <div className="projects-card from-bottom">
-                <div className="project-video-container">
-                   <video     
-                       src='/Showreel-Grid-Mobile-remix.mp4'
-                       autoPlay
-                        muted
-                       loop
-                       preload='auto'
-                       playsInline
-                      className='project-video'
-                  />
-                </div>
-                <div className="project-info">
-                    <h3 className="project-title">Mperceptions</h3>
-                    <p className="project-details">Custom Landing Page, Conversion Optimization</p>
-                    <Link to=''>
-                    <button className="read-more">Read More</button>
-                    </Link>
-                </div>
-                
-             </div>
-            
+       <section className="projects-section" id="project-portfolio">
+    <h3 className="projects-heading from-bottom">
+      PROJECTS PORTFOLIO
+    </h3>
+
+    <div className="projects-slider">
+      <div className="projects-track">
+        
+        <div className="projects-card">
+          <div className="project-video-container">
+            <video
+              src="/fn-video.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="project-video"
+            />
           </div>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-      </section>
+          <div className="project-info">
+            <h3 className="project-title">Football Nostalgia</h3>
+            <p className="project-details">
+              Custom Landing Page, Conversion Optimization
+            </p>
+            <Link to="footballNostalgia">
+              <button className="read-more">Read More</button>
+            </Link>
+          </div>
+        </div>
+
+        <div className="projects-card">
+          <div className="project-video-container">
+            <video
+              src="/Showreel-Grid-Mobile-remix.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="project-video"
+            />
+          </div>
+          <div className="project-info">
+            <h3 className="project-title">Mperceptions</h3>
+            <p className="project-details">
+              Custom Landing Page, Conversion Optimization
+            </p>
+            <button className="read-more">Read More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
    )
 }
 export default Projects
