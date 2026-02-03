@@ -53,8 +53,11 @@ const Projects = () => {
                     <button className="read-more">Read More</button>
                     </Link>
                 </div>
+                
              </div>
+            
           </div>
+         
       </section>
    )
 }

@@ -30,7 +30,7 @@ const Help = () => {
   return(
     <section className ="help-section" id='help'>
         <div className="help-container container grid">
-            <img src="" alt="" />
+           
             <h3 className="help-heading from-left">
                 Here's How We Can Help
             </h3>
