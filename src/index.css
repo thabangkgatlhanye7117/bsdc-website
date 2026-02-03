@@ -509,7 +509,8 @@
 
     .inside-section{
      
-     object-fit: contain; 
+     object-fit: contain;
+     margin-bottom: 4rem; 
     }
 
     .inside-container{
@@ -545,6 +546,9 @@
     height: 100%;
     width: 100%;
     padding: 0 1rem;
+  }
+  .shopify-logo{
+    padding: 4rem;
   }
 
   

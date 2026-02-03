@@ -84,7 +84,7 @@ const Inside = () => {
             </div>
       
             <img src='/ecom-sign.webp' width={'100%'}/>
-             <img className='from-bottom'  loading='lazy' src="/shopify-partner-logo.webp"/>
+             <img className='shopify-logo'  loading='lazy' src="/shopify-partner-logo.webp"/>
       </section>
   )
 }
