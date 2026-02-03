@@ -38,7 +38,7 @@ const WhyPictures = ()=>{
             </h2>
             </div>
             <div className="ecommerce-pictures">
-
+                <img className='from-bottom'  loading='lazy' src="/shopify-partner-logo.webp"/>
                 <img src="/ecom-laptop.webp" className='from-left'loading='lazy'/>
                 <img className='from-right'  loading='lazy' src="/e-shopping.webp"/>
                 <img className='from-bottom'  loading='lazy' src="/online-store.webp"/>
