@@ -665,9 +665,10 @@
  width: 130px;
 }
 /*PROJECTS PORTFOLIO*/
-.projects-section{
+.projects-container{
+  display: grid;
   margin-top: 80px;
-  height: 600px;
+  height:auto;
 }
 .projects-heading{
   
@@ -840,9 +841,7 @@ footer{
   border-bottom: 1px solid white;
   margin-top: 1rem;
 }
-.copy-rights{
-  
-}
+
 .footer-button{
   display: grid;
   place-content: center;

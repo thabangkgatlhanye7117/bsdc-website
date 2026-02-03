@@ -55,6 +55,14 @@ const Projects = () => {
                 </div>
                 
              </div>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
              <div className="projects-card from-bottom">
                 <div className="project-video-container">
                    <video     
@@ -78,7 +86,10 @@ const Projects = () => {
              </div>
             
           </div>
-         
+             <br/>
+             <br/>
+             <br/>
+             <br/>
       </section>
    )
 }
