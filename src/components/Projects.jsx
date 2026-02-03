@@ -55,6 +55,27 @@ const Projects = () => {
                 </div>
                 
              </div>
+             <div className="projects-card from-bottom">
+                <div className="project-video-container">
+                   <video     
+                       src='/Showreel-Grid-Mobile-remix.mp4'
+                       autoPlay
+                        muted
+                       loop
+                       preload='auto'
+                       playsInline
+                      className='project-video'
+                  />
+                </div>
+                <div className="project-info">
+                    <h3 className="project-title">Mperceptions</h3>
+                    <p className="project-details">Custom Landing Page, Conversion Optimization</p>
+                    <Link to=''>
+                    <button className="read-more">Read More</button>
+                    </Link>
+                </div>
+                
+             </div>
             
           </div>
          

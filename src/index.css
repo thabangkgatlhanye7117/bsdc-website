@@ -494,6 +494,16 @@
       opacity: 0;
     }
   }
+  /*Services Section*/
+  .services-container {
+    display:grid;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+
+  }
 
   /*Inside Section*/
 
