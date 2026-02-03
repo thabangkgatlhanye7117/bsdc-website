@@ -75,7 +75,9 @@ const Projects = () => {
             <p className="project-details">
               Custom Landing Page, Conversion Optimization
             </p>
-            <button className="read-more">Read More</button>
+            <Link to="mperceptions">
+               <button className="read-more">Read More</button>
+            </Link>
           </div>
         </div>
 

@@ -6,13 +6,15 @@ import 'remixicon/fonts/remixicon.css'
 import Layout from './Layout'
 import HomePage from './pages/HomePage'
 import FootballNostalgia from './pages/FootballNostalgia'
+import Mperceptions from './pages/Mperceptions'
 
 
 const router = createBrowserRouter([
   { path :'/', element: <Layout/>,
     children: [
       {index: true, element: <HomePage/>},
-      {path:'footballNostalgia', element: <FootballNostalgia/>}
+      {path:'footballNostalgia', element: <FootballNostalgia/>},
+      {path:'mperceptions', element: <Mperceptions/>}
     ]
   }
 ])
