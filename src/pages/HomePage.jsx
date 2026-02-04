@@ -6,6 +6,7 @@ import Inside from "../components/Inside";
 import WhyPictures from "../components/WhyPictures";
 import OurClients from "../components/OurClients";
 import Services from "../components/Services";
+import AI from "../components/AI";
 
 
 
@@ -18,7 +19,8 @@ const HomePage = ()=>{
              <Inside/>
              <Services/>
              <OurClients/> 
-             <Projects/>   
+            <Projects/>
+              <AI/>
              <Help/> 
              <WhyPictures/>
              <RequestQuote/> 

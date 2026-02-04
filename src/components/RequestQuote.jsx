@@ -2,7 +2,7 @@ import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser'
 
 const RequestQuote = ()=> {
-   const form= useRef();
+   const form = useRef();
    const  [statusMessage,setStatusMessage]= useState('');
    const [isSuccess, setIsSuccess] = useState(null);
 
