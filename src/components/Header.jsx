@@ -21,7 +21,7 @@ const Header = () => {
         <nav className="nav-container">
 
             <a className="nav-logo-container">
-               <img className="logo" src="/bullasoft-logo-header.webp" loading='lazy' alt="logo"/>
+               <img className="logo" src="/new-logo.png" loading='lazy' alt="logo"/>
                
             </a>
             

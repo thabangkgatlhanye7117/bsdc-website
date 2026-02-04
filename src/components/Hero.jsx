@@ -37,16 +37,16 @@ const Hero = () => {
                     WELCOME TO BULLASOFT.
                   </span>
                   <h3 className="hero-heading from-left">
-                      TURNING <span>STARTUPS</span> INTO STANDOUTS<br/>
-                      ONE <span>DIGITAL</span> BUILD AT A TIME.
+                      WE BUILD STORES THAT SELL<br/> 
+                      LAUNCH. SELL. SCALE.
+                    
               
                   </h3>
                 
                 <div className="hero-text-container">
                     <p className="hero-statement from-right">
-                    We're the architects of the digital world<br/>
-                    constructing the future of digital stores and learning
-                    platforms that boost reach and sales.
+                      Design, development, maintenance, and
+                      AI-driven digital marketing — everything you need to grow online.
                                             
                     </p>
                 </div>

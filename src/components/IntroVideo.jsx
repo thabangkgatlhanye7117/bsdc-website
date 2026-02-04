@@ -22,7 +22,7 @@ const IntroVideo = ({onEnd}) => {
   return(
     <video
       ref={videoRef}
-      src='/bullasoft-logo-2.mp4'
+      src='/bullasoft-intro.mp4'
       autoPlay
       muted
       preload='auto'
