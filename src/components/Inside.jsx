@@ -45,11 +45,10 @@ const Inside = () => {
                       
                        <i className="ri-lightbulb-flash-line"></i>
                        <div className="column-description">
-                          <span>Problem</span>
+                          <span>Your Business Is Online — But Not Working</span>
                           <p>
-                            Startups and schools often lack an online presence due to cost, limited
-                            digital knowledge, and not realizing the impact an eCommerce store or digital school
-                            can have on their growth and engagement. 
+                              Many businesses have websites or social pages, but they don’t attract traffic, generate leads, or convert visitors into customers. Slow sites, poor design, no clear messaging,
+                               and no digital strategy mean lost sales every day. 
                           </p>
                        </div>
 
@@ -59,10 +58,11 @@ const Inside = () => {
                       
                       <i className="ri-macbook-line"></i>
                       <div className="column-description">
-                          <span>Solution</span>
+                          <span>We Build Digital Systems That Grow Businesses</span>
                           <p >
-                            Bullasoft helps startups and educational institutions go digital with affordable, high-quality
-                            websites, online stores, and portals__built to boost visibilty, efficiency, and trust.
+                              Bullasoft designs and develops high-performance websites and eCommerce stores that are built to convert.
+                               We don’t just create websites — we build complete digital systems that help customers find you, trust you,
+                                and take action.
                             
                           </p>
                       </div>
@@ -71,10 +71,11 @@ const Inside = () => {
                       
                       <i className="ri-settings-line"></i>
                      <div className="column-description">
-                         <span>Method</span>
+                         <span>Design. Build. Maintain. Market.</span>
                           <p>
-                            We design and build fast, modern websites using custom tools__offering hosting, support,
-                            and everything needed to launch and grow online.
+                              We handle the full digital journey: conversion-focused design,
+                               fast and secure development, reliable hosting and maintenance, and AI-powered digital marketing. This means your business stays online, optimized,
+                               and growing — without technical stress.
                         
                           </p>
                      </div>
